@@ -12,7 +12,6 @@ const Box = dynamic(() => import('@/components/canvas/Box'), {
 const Page = () => {
   return (
     <>
-      <h3>HEHE</h3>
       <Box r3f route='/box' />
       {/* <Human r3f /> */}
     </>
