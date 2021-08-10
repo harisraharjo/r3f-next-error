@@ -38,7 +38,7 @@ const Header = ({ title = titleDefault }) => {
         <meta name='og:description' content={description} />
 
         <link rel='apple-touch-icon' href='/icons/apple-touch-icon.png' />
-        <link
+        {/* <link
           rel='apple-touch-icon'
           sizes='16x16'
           href='/icons/favicon-16x16.png'
@@ -47,7 +47,7 @@ const Header = ({ title = titleDefault }) => {
           rel='apple-touch-icon'
           sizes='32x32'
           href='/icons/favicon-32x32.png'
-        />
+        /> */}
         <link
           rel='apple-touch-icon'
           sizes='180x180'
@@ -69,7 +69,7 @@ const Header = ({ title = titleDefault }) => {
           content='width=device-width, minimum-scale=1, initial-scale=1.0'
         />
         <meta name='theme-color' content='#000' />
-        <link rel='shortcut icon' href='/icons/favicon.ico' />
+        {/* <link rel='shortcut icon' href='/icons/favicon.ico' /> */}
 
         {/* 
       Twitter Summary card

@@ -4,6 +4,7 @@ import { useRef, useState } from 'react'
 
 const BoxComponent = ({ route, r3f }) => {
   const router = useStore((s) => s.router)
+  console.log('HE:', r3f)
   // This reference will give us direct access to the THREE.Mesh object
   const mesh = useRef(null)
   // Set up state for the hovered and active state
